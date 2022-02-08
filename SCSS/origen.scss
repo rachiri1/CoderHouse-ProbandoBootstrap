@@ -1,0 +1,43 @@
+@import "responsive";
+@import "animaciones";
+
+/*Variable*/
+$NavGradient: linear-gradient(#0f2027, #203a43, #2c5364);
+
+/*Generales******************************************************/
+h1 {
+  text-align: center;
+}
+
+.conoHelado {
+  border-radius: 50%;
+  margin-top: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+.pastelarcoiris {
+  border-radius: 50%;
+}
+
+img.logoNav {
+  border-radius: 50%;
+}
+
+body {
+  .NavDolce {
+    background-image: $NavGradient;
+  }
+}
+
+/*Pseudoclases*/
+div {
+  ul {
+    li {
+      a.nav-link:hover {
+        position: relative;
+        bottom: 10px;
+      }
+    }
+  }
+}
