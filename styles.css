@@ -36,6 +36,16 @@ a.nav-link:hover {
   .conoHelado {
     display: none;
   }
+
+  video {
+    width: 300px;
+  }
+
+  .DivPastel {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
 }
 
 /*Tablet Responsive*/
