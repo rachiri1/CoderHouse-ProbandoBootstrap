@@ -20,12 +20,40 @@
     margin-left: 15%;
     width: 70%;
   }
+
+  img.logoDolceakasa {
+    height: 70%;
+  }
+
+  .divCarrusel,
+  .imgCarrusel {
+    width: 70%;
+    height: 60%;
+  }
+
+  h5.display-6 {
+    font-size: 15px;
+  }
+
+  p.card-text {
+    font-size: 10px;
+  }
 }
 
 /*Tablet Responsive*/
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1023px) {
   .conoHelado {
     width: 300px;
     height: 300px;
+  }
+
+  img.logoDolceakasa {
+    height: 80%;
+  }
+
+  .divCarrusel,
+  .imgCarrusel {
+    width: 70%;
+    height: 60%;
   }
 }
