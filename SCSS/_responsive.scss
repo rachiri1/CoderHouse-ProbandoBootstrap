@@ -1,21 +1,17 @@
 /*Responsive***************************************************/
-
 /*Mobile Responsive*/
 @media (max-width: 480px) {
   .conoHelado {
     display: none;
   }
-
   video {
     width: 300px;
   }
-
   .DivPastel {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
-
   .formDiv {
     margin-left: 15%;
     width: 70%;
@@ -27,24 +23,19 @@
 
   .divCarrusel,
   .imgCarrusel {
-    width: 70%;
-    height: 60%;
-  }
-
-  h5.display-6 {
-    font-size: 15px;
-  }
-
-  p.card-text {
-    font-size: 10px;
+    width: 80%;
+    height: 50%;
   }
 }
 
 /*Tablet Responsive*/
-@media (min-width: 481px) and (max-width: 1023px) {
+@media (min-width: 481px) and (max-width: 896px) {
   .conoHelado {
     width: 300px;
     height: 300px;
+  }
+  fieldset {
+    width: 150px;
   }
 
   img.logoDolceakasa {
@@ -53,7 +44,7 @@
 
   .divCarrusel,
   .imgCarrusel {
-    width: 70%;
-    height: 60%;
+    width: 80%;
+    height: 50%;
   }
 }

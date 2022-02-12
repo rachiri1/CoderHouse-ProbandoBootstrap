@@ -1,3 +1,105 @@
+/*Generales******************************************************/
+h1 {
+  text-align: center; }
+
+.conoHelado {
+  border-radius: 50%;
+  margin-top: 150px;
+  width: 30rem;
+  height: 30rem; }
+
+.pastelarcoiris {
+  border-radius: 50%; }
+
+img.logoNav {
+  border-radius: 50%; }
+
+div.clickImagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: aliceblue; }
+
+.divCarrusel,
+.imgCarrusel {
+  width: 40%;
+  height: 50%;
+  margin: 2% auto; }
+
+.cajaProductos {
+  height: 50%;
+  width: 60%;
+  position: relative;
+  left: 20%; }
+
+body .NavDolce {
+  background-image: linear-gradient(#0f2027, #203a43, #2c5364); }
+
+/*Contact Form*/
+.formDiv {
+  background-image: linear-gradient(#c0c0aa, #2c5364, #c0c0aa);
+  text-align: center;
+  padding: 1%; }
+
+input,
+textarea {
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: inherit;
+  color: black;
+  outline: none;
+  padding: 0.5rem;
+  background: none; }
+
+input:hover,
+textarea:hover {
+  border-color: white; }
+
+input:focus,
+textarea:focus {
+  border-color: lightblue; }
+
+/*Pseudoclases*/
+div ul li a.nav-link:hover {
+  position: relative;
+  bottom: 10px; }
+
+/*Responsive***************************************************/
+/*Mobile Responsive*/
+@media (max-width: 480px) {
+  .conoHelado {
+    display: none; }
+  video {
+    width: 300px; }
+  .DivPastel {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; }
+  .formDiv {
+    margin-left: 15%;
+    width: 70%; }
+  img.logoDolceakasa {
+    height: 70%; }
+  .divCarrusel,
+  .imgCarrusel {
+    width: 80%;
+    height: 50%; } }
+
+/*Tablet Responsive*/
+@media (min-width: 481px) and (max-width: 896px) {
+  .conoHelado {
+    width: 300px;
+    height: 300px; }
+  fieldset {
+    width: 150px; }
+  img.logoDolceakasa {
+    height: 80%; }
+  .divCarrusel,
+  .imgCarrusel {
+    width: 80%;
+    height: 50%; } }
+
 /*Variable*/
 /*Animations************************************************/
 /*Imagenes de productos*/
@@ -156,102 +258,3 @@
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
     opacity: 1; } }
-
-/*Responsive***************************************************/
-/*Mobile Responsive*/
-@media (max-width: 480px) {
-  .conoHelado {
-    display: none; }
-  video {
-    width: 300px; }
-  .DivPastel {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap; }
-  .formDiv {
-    margin-left: 15%;
-    width: 70%; }
-  img.logoDolceakasa {
-    height: 70%; }
-  .divCarrusel,
-  .imgCarrusel {
-    width: 70%;
-    height: 60%; }
-  h5.display-6 {
-    font-size: 15px; }
-  p.card-text {
-    font-size: 10px; } }
-
-/*Tablet Responsive*/
-@media (min-width: 481px) and (max-width: 1023px) {
-  .conoHelado {
-    width: 300px;
-    height: 300px; }
-  img.logoDolceakasa {
-    height: 80%; }
-  .divCarrusel,
-  .imgCarrusel {
-    width: 70%;
-    height: 60%; } }
-
-/*Generales******************************************************/
-body .NavDolce {
-  background-image: linear-gradient(#0f2027, #203a43, #2c5364); }
-
-h1 {
-  text-align: center; }
-
-.conoHelado {
-  border-radius: 50%;
-  margin-top: 150px;
-  width: 30rem;
-  height: 30rem; }
-
-.pastelarcoiris {
-  border-radius: 50%; }
-
-img.logoNav {
-  border-radius: 50%; }
-
-.divCarrusel,
-.imgCarrusel {
-  width: 40%;
-  height: 50%;
-  margin: 2% auto;
-  border-radius: 50%; }
-
-div.cajaProductos {
-  height: 50%;
-  width: 60%;
-  position: relative;
-  left: 20%; }
-
-/*Contact Form*/
-.formDiv {
-  background-image: linear-gradient(#c0c0aa, #2c5364, #c0c0aa);
-  text-align: center;
-  padding: 1%; }
-
-input,
-textarea {
-  border: 2px solid gray;
-  border-radius: 0.5rem;
-  font-family: inherit;
-  font-size: inherit;
-  color: black;
-  outline: none;
-  padding: 0.5rem;
-  background: none; }
-
-input:hover,
-textarea:hover {
-  border-color: white; }
-
-input:focus,
-textarea:focus {
-  border-color: lightblue; }
-
-/*Pseudoclases*/
-div ul li a.nav-link:hover {
-  position: relative;
-  bottom: 10px; }
