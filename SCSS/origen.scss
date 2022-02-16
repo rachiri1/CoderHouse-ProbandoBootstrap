@@ -1,4 +1,13 @@
+@import "_responsive";
+@import "_variables";
+@import "_animaciones";
+
 /*Generales******************************************************/
+
+.NavDolce {
+  background-image: $gradNav;
+}
+
 h1 {
   text-align: center;
 }
@@ -25,22 +34,19 @@ div.clickImagenes {
   background-color: aliceblue;
 }
 
-.divCarrusel,
 .imgCarrusel {
-  width: 40%;
-  height: 50%;
-  margin: 2% auto;
+  height: 750px;
+  object-fit: cover;
+}
+
+img.productos {
+  width: 50%;
+  height: auto;
+  border: 1px solid whitesmoke;
 }
 
 .cajaProductos {
-  height: 50%;
-  width: 60%;
-  position: relative;
-  left: 20%;
-}
-
-body .NavDolce {
-  background-image: linear-gradient(#0f2027, #203a43, #2c5364);
+  background-image: linear-gradient(to right, white, #8e9eab, #eef2f3, white);
 }
 
 /*Contact Form*/
@@ -84,6 +90,3 @@ div {
     }
   }
 }
-@import "responsive";
-@import "variables";
-@import "animaciones";

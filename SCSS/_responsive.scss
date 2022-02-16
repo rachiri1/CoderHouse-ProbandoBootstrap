@@ -16,15 +16,25 @@
     margin-left: 15%;
     width: 70%;
   }
-
   img.logoDolceakasa {
     height: 70%;
   }
 
-  .divCarrusel,
+  .carousel-inner {
+    height: 200px;
+  }
+
   .imgCarrusel {
-    width: 80%;
-    height: 50%;
+    padding-bottom: 550px;
+  }
+
+  img.productos {
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+
+  p.productos {
+    font-size: xx-small;
   }
 }
 
@@ -42,9 +52,15 @@
     height: 80%;
   }
 
-  .divCarrusel,
+  .carousel-inner {
+    height: 300px;
+  }
+
   .imgCarrusel {
-    width: 80%;
-    height: 50%;
+    padding-bottom: 400px;
+  }
+
+  p.productos {
+    font-size: x-small;
   }
 }

@@ -1,2 +1,17 @@
-/*Variable*/
-$NavGradient: linear-gradient(#0f2027, #203a43, #2c5364);
+/*Variables*/
+
+$gradNav: linear-gradient(#0f2027, #203a43, #2c5364);
+
+/*Maps*/
+
+$colores: (
+  bi-facebook: #3a5795,
+  bi-instagram: rgb(143, 52, 143),
+  bi-whatsapp: green,
+);
+
+@each $name, $color in $colores {
+  svg.#{$name} {
+    fill: $color;
+  }
+}
