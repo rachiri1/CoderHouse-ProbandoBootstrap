@@ -7,7 +7,7 @@ $gradNav: linear-gradient(#0f2027, #203a43, #2c5364);
 $colores: (
   bi-facebook: #3a5795,
   bi-instagram: rgb(143, 52, 143),
-  bi-whatsapp: green,
+  green: green,
 );
 
 @each $name, $color in $colores {
@@ -15,3 +15,32 @@ $colores: (
     fill: $color;
   }
 }
+
+svg.bi-whatsapp {
+  fill: map-get($colores, green);
+}
+
+/*Extend*/
+img.logoNav {
+  border-radius: 50%;
+}
+
+.pastelarcoiris {
+  @extend img.logoNav;
+  border: solid 1px black;
+}
+
+/*Mixin*/
+
+@mixin sizes-Cono-Helado($border-radius, $margin-top, $width, $height) {
+  border-radius: $border-radius;
+  margin-top: $margin-top;
+  width: $width;
+  height: $height;
+}
+
+.conoHelado {
+  @include sizes-Cono-Helado(50%, 150px, 30rem, 30rem);
+}
+
+/******/

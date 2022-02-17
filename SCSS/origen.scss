@@ -12,27 +12,11 @@ h1 {
   text-align: center;
 }
 
-.conoHelado {
-  border-radius: 50%;
-  margin-top: 150px;
-  width: 30rem;
-  height: 30rem;
-}
-
-.pastelarcoiris {
-  border-radius: 50%;
-}
-
-img.logoNav {
-  border-radius: 50%;
-}
-
 div.clickImagenes {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: aliceblue;
-  font-size: medium;
 }
 
 .imgCarrusel {
@@ -41,7 +25,7 @@ div.clickImagenes {
 }
 
 img.productos {
-  width: 50%;
+  width: 60%;
   height: auto;
   border: 1px solid whitesmoke;
 }
