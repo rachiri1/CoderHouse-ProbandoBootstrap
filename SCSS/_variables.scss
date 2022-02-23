@@ -21,14 +21,21 @@ svg.bi-whatsapp {
 }
 
 /*Extend*/
-img.logoNav,
-img.logoDolceakasa {
-  border-radius: 50%;
+
+.logoDolceakasa {
+  @extend img.logoNav;
+  padding: 3%;
 }
 
 .pastelarcoiris {
   @extend img.logoNav;
   border: solid 1px black;
+}
+
+div.nosotros2 {
+  @extend div.nosotros;
+  margin-top: 8%;
+  margin-left: 6%;
 }
 
 /*Mixin*/

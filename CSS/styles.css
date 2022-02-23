@@ -1,120 +1,129 @@
-/*Responsive***************************************************/
-/*Mobile Responsive*/
-@media (max-width: 480px) {
-  .conoHelado {
-    display: none;
-  }
-  video {
-    width: 300px;
-  }
-  .DivPastel {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-  }
-  .formDiv {
-    margin-left: 15%;
-    width: 70%;
-  }
-  img.logoDolceakasa {
-    height: 70%;
-  }
-  .carousel-inner {
-    height: 200px;
-  }
-  .imgCarrusel {
-    padding-bottom: 550px;
-  }
-  img.productos {
-    margin-top: 20%;
-    margin-left: 25%;
-  }
-  p.productos {
-    font-size: xx-small;
-  }
-  h5.textoClick {
-    font-size: larger;
-  }
-  h5.textoClick2 {
-    font-size: small;
-  }
-  p.productos {
-    font-size: xx-small;
-  }
-}
-
-/*Tablet Responsive*/
-@media (min-width: 481px) and (max-width: 896px) {
-  .conoHelado {
-    width: 300px;
-    height: 300px;
-  }
-  fieldset {
-    width: 150px;
-  }
-  img.logoDolceakasa {
-    height: 80%;
-  }
-  .carousel-inner {
-    height: 300px;
-  }
-  .imgCarrusel {
-    padding-bottom: 400px;
-  }
-  p.productos {
-    font-size: x-small;
-  }
-  h5.textoClick2 {
-    font-size: larger;
-  }
-}
-
 /*Variables*/
 /*Maps*/
 svg.bi-facebook {
-  fill: #3a5795;
-}
+  fill: #3a5795; }
 
 svg.bi-instagram {
-  fill: #8f348f;
-}
+  fill: #8f348f; }
 
 svg.green {
-  fill: green;
-}
+  fill: green; }
 
 svg.bi-whatsapp {
-  fill: green;
-}
+  fill: green; }
 
 /*Extend*/
-img.logoNav,
-.pastelarcoiris,
-img.logoDolceakasa {
-  border-radius: 50%;
-}
+.logoDolceakasa {
+  padding: 3%; }
 
 .pastelarcoiris {
-  border: solid 1px black;
-}
+  border: solid 1px black; }
+
+div.nosotros2 {
+  margin-top: 8%;
+  margin-left: 6%; }
 
 /*Mixin*/
 .conoHelado {
   border-radius: 50%;
   margin-top: 150px;
   width: 30rem;
-  height: 30rem;
-}
+  height: 30rem; }
 
 /******/
+/*Responsive***************************************************/
+/*Mobile Responsive**************************************************************/
+@media (max-width: 480px) {
+  /**Index**/
+  img.logoDolceakasa {
+    height: 70%; }
+  .carousel-inner {
+    height: 200px; }
+  .imgCarrusel {
+    padding-bottom: 550px; }
+  h5.textoClick {
+    font-size: larger; }
+  /**Nosotros**/
+  video {
+    width: 300px; }
+  .DivPastel {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; }
+  p.nosotros {
+    font-size: xx-small; }
+  div.nosotros, div.nosotros2,
+  div.nosotros2 {
+    margin-bottom: 4%; }
+  /**Productos**/
+  /**Delivery**/
+  p.lead {
+    font-size: small; }
+  div.delivery {
+    padding: 0%; }
+  /**Contacto**/
+  .conoHelado {
+    display: none; }
+  .formDiv {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+/*Tablet Responsive**********************************************************************/
+@media (min-width: 481px) and (max-width: 896px) {
+  /**Index**/
+  img.logoDolceakasa {
+    height: 80%; }
+  .carousel-inner {
+    height: 300px; }
+  .imgCarrusel {
+    padding-bottom: 400px; }
+  /**Nosotros**/
+  video {
+    width: 80%; }
+  div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  p.nosotros {
+    font-size: xx-small; }
+  div.nosotros, div.nosotros2,
+  div.nosotros2 {
+    margin-bottom: 4%;
+    border-radius: 0; }
+  /**Productos**/
+  div.productos {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  h5.textoClick2 {
+    font-size: larger; }
+  /**Delivery**/
+  /**Contacto**/
+  .conoHelado {
+    display: none; }
+  .formDiv {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
 /*Animations************************************************/
 /*Imagenes de productos*/
 .slide-in-elliptic-top-fwd {
-  -webkit-animation: slide-in-elliptic-top-fwd 0.7s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-}
+  -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
 
 @-webkit-keyframes slide-in-elliptic-top-fwd {
   0% {
@@ -122,16 +131,13 @@ img.logoDolceakasa {
     transform: translateY(-600px) rotateX(-30deg) scale(0);
     -webkit-transform-origin: 50% 100%;
     transform-origin: 50% 100%;
-    opacity: 0;
-  }
+    opacity: 0; }
   100% {
     -webkit-transform: translateY(0) rotateX(0) scale(1);
     transform: translateY(0) rotateX(0) scale(1);
     -webkit-transform-origin: 50% 1400px;
     transform-origin: 50% 1400px;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 @keyframes slide-in-elliptic-top-fwd {
   0% {
@@ -139,64 +145,49 @@ img.logoDolceakasa {
     transform: translateY(-600px) rotateX(-30deg) scale(0);
     -webkit-transform-origin: 50% 100%;
     transform-origin: 50% 100%;
-    opacity: 0;
-  }
+    opacity: 0; }
   100% {
     -webkit-transform: translateY(0) rotateX(0) scale(1);
     transform: translateY(0) rotateX(0) scale(1);
     -webkit-transform-origin: 50% 1400px;
     transform-origin: 50% 1400px;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 /*Titulos H1*/
 .tracking-in-contract-bck {
-  -webkit-animation: tracking-in-contract-bck 1s
-    cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
-}
+  -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 @-webkit-keyframes tracking-in-contract-bck {
   0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(400px);
     transform: translateZ(400px);
-    opacity: 0;
-  }
+    opacity: 0; }
   40% {
-    opacity: 0.6;
-  }
+    opacity: 0.6; }
   100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 @keyframes tracking-in-contract-bck {
   0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(400px);
     transform: translateZ(400px);
-    opacity: 0;
-  }
+    opacity: 0; }
   40% {
-    opacity: 0.6;
-  }
+    opacity: 0.6; }
   100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 /*Logo del Index*/
 .bounce-top {
   -webkit-animation: bounce-top 2s both;
-  animation: bounce-top 2s both;
-}
+  animation: bounce-top 2s both; }
 
 @-webkit-keyframes bounce-top {
   0% {
@@ -204,35 +195,29 @@ img.logoDolceakasa {
     transform: translateY(-45px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
-    opacity: 1;
-  }
+    opacity: 1; }
   24% {
-    opacity: 1;
-  }
+    opacity: 1; }
   40% {
     -webkit-transform: translateY(-24px);
     transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   65% {
     -webkit-transform: translateY(-12px);
     transform: translateY(-12px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   82% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   93% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   25%,
   55%,
   75%,
@@ -240,16 +225,13 @@ img.logoDolceakasa {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
+    animation-timing-function: ease-out; }
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 @keyframes bounce-top {
   0% {
@@ -257,35 +239,29 @@ img.logoDolceakasa {
     transform: translateY(-45px);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
-    opacity: 1;
-  }
+    opacity: 1; }
   24% {
-    opacity: 1;
-  }
+    opacity: 1; }
   40% {
     -webkit-transform: translateY(-24px);
     transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   65% {
     -webkit-transform: translateY(-12px);
     transform: translateY(-12px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   82% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   93% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
+    animation-timing-function: ease-in; }
   25%,
   55%,
   75%,
@@ -293,82 +269,94 @@ img.logoDolceakasa {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
+    animation-timing-function: ease-out; }
   100% {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 /*Generales******************************************************/
-.NavDolce {
+body {
   background-image: url(../assets/navbar.jpg);
-}
+  background-size: 4000px; }
 
 h1 {
   text-align: center;
-}
+  background-color: white; }
+
+/**Index**/
+img.logoNav, .logoDolceakasa, .pastelarcoiris {
+  border-radius: 50%; }
 
 div.clickImagenes {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: aliceblue;
-}
+  background-color: white; }
 
 .imgCarrusel {
   height: 750px;
-  object-fit: cover;
-}
+  object-fit: cover; }
 
-.cajaProductos div.productos {
-  display: flex;
-  flex-direction: column;
-}
-.cajaProductos div.productos strong {
-  margin-top: 3%;
-  margin-right: 90%;
-}
+/**Nosotros**/
+div.nosotros, div.nosotros2 {
+  background-color: black;
+  height: 400px; }
 
-.cajaProductos img.productos {
-  width: 60%;
-  height: auto;
-  border: 1px solid whitesmoke;
-}
+p.nosotros {
+  text-align: center;
+  font-size: large;
+  color: white; }
 
-/*Contact Form*/
+/**Productos**/
+div.productos {
+  background-color: black;
+  padding-top: 48px; }
+
+/**Delivery**/
+div.delivery,
+iframe {
+  background-color: black;
+  background-size: contain;
+  width: 100%; }
+
+div.delivery {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 3%; }
+
+h2,
+.lead {
+  color: white; }
+
+/**Contacto**/
 .formDiv {
   text-align: center;
   padding: 1%;
-  background-color: #afa864;
-  border-radius: 5%;
-}
-.formDiv input,
-.formDiv textarea {
-  border: 2px solid gray;
-  border-radius: 0.5rem;
-  font-family: inherit;
-  font-size: inherit;
-  color: black;
-  outline: none;
-  padding: 0.5rem;
-  background: none;
-}
-.formDiv input:hover,
-.formDiv textarea:hover {
-  border-color: white;
-}
-.formDiv input:focus,
-.formDiv textarea:focus {
-  border-color: lightblue;
-}
+  background-color: black; }
+  .formDiv legend,
+  .formDiv label {
+    color: white; }
+  .formDiv input,
+  .formDiv textarea {
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: black;
+    outline: none;
+    padding: 0.5rem;
+    background: white; }
+  .formDiv input:hover,
+  .formDiv textarea:hover {
+    border-color: white; }
+  .formDiv input:focus,
+  .formDiv textarea:focus {
+    border-color: lightblue; }
 
 /*Pseudoclases*/
 div ul li a.nav-link:hover {
   position: relative;
-  bottom: 10px;
-}
+  bottom: 10px; }

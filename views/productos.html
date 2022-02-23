@@ -65,105 +65,165 @@
         </div>
       </nav>
     </header>
-
-    <h1 class="display-1 tracking-in-contract-bck">Nuestros Productos</h1>
-    <hr />
-    <div class="container my-md-3 cajaProductos">
-      <div class="row my-md-3">
-        <h5 class="display-6">Arroz con leche y mazamorra morada:</h5>
-      </div>
+    <div class="container">
       <div class="row">
-        <div class="col-5">
-          <img
-            class="img-fluid slide-in-elliptic-top-fwd productos"
-            src="../assets/combinado.jpg"
-            alt="Arroz con leche"
-          />
-        </div>
-        <div
-          class="col-7 d-flex align-items-center justify-content-center productos"
-        >
-          <p class="productos">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem amet deleniti saepe animi ducimus eum officia quo cum
-            placeat ab, molestiae omnis. Nihil quaerat laboriosam sit eius
-            aspernatur delectus fuga et eveniet excepturi ratione doloremque,
-            quo, sequi adipisci, vero molestias quos aliquid labore consequatur?
-            Atque et vero distinctio minus provident.
-          </p>
-          <strong>S/.10.00</strong>
-        </div>
+        <h1 class="display-1 tracking-in-contract-bck">Nuestros Productos</h1>
       </div>
-      <hr />
-      <div class="row my-md-3"><h5 class="display-6">Bola de helado:</h5></div>
-      <div class="row">
-        <div class="col-5">
-          <img
-            class="img-fluid slide-in-elliptic-top-fwd productos"
-            src="../assets/bola de helado.jpg"
-            alt="bola de helado"
-          />
-        </div>
-        <div
-          class="col-7 d-flex align-items-center justify-content-center productos"
-        >
-          <p class="productos">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem amet deleniti saepe animi ducimus eum officia quo cum
-            placeat ab, molestiae omnis. Nihil quaerat laboriosam sit eius
-            aspernatur delectus fuga et eveniet excepturi ratione doloremque,
-            quo, sequi adipisci, vero molestias quos aliquid labore consequatur?
-            Atque et vero distinctio minus provident.
-          </p>
-          <strong>S/.10.00</strong>
-        </div>
-      </div>
-      <hr />
-      <div class="row my-md-3"><h5 class="display-6">Galletas:</h5></div>
-      <div class="row">
-        <div class="col-5">
-          <img
-            class="img-fluid productos"
-            src="../assets/galletas.jpg"
-            alt="Galletas"
-          />
-        </div>
-        <div
-          class="col-7 d-flex align-items-center justify-content-center productos"
-        >
-          <p class="productos">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem amet deleniti saepe animi ducimus eum officia quo cum
-            placeat ab, molestiae omnis. Nihil quaerat laboriosam sit eius
-            aspernatur delectus fuga et eveniet excepturi ratione doloremque,
-            quo, sequi adipisci, vero molestias quos aliquid labore consequatur?
-            Atque et vero distinctio minus provident.
-          </p>
-          <strong>S/.10.00</strong>
-        </div>
-      </div>
-      <hr />
-      <div class="row my-md-3"><h5 class="display-6">Pye:</h5></div>
-      <div class="row">
-        <div class="col-5">
-          <img class="img-fluid productos" src="../assets/pye.jpg" alt="Pye" />
-        </div>
-        <div
-          class="col-7 d-flex align-items-center justify-content-center productos"
-        >
-          <p class="productos">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem amet deleniti saepe animi ducimus eum officia quo cum
-            placeat ab, molestiae omnis. Nihil quaerat laboriosam sit eius
-            aspernatur delectus fuga et eveniet excepturi ratione doloremque,
-            quo, sequi adipisci, vero molestias quos aliquid labore consequatur?
-            Atque et vero distinctio minus provident.
-          </p>
-          <strong>S/.10.00</strong>
-        </div>
-      </div>
-      <hr />
     </div>
+
+    <!-- Section-->
+    <section class="py-5 productos">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center productos"
+        >
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="../assets/combinado.jpg"
+                alt="combinado"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Arroz con leche y mazamorra morada</h5>
+                  <!-- Product price-->
+                  S/10.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver opciones</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Oferta
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="../assets/bola de helado.jpg"
+                alt="Helado"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Helado de vainilla</h5>
+                  <!-- Product reviews-->
+                  <div
+                    class="d-flex justify-content-center small text-warning mb-2"
+                  >
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                  </div>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >S/20.00</span
+                  >
+                  S/10.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver opciones</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Oferta
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="../assets/galletas.jpg"
+                alt="Galletas"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Galletas</h5>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >S/20.00</span
+                  >
+                  S/10.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Agregar al carrito</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img class="card-img-top" src="../assets/pye.jpg" alt="pye" />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Pye de durazno</h5>
+                  <!-- Product reviews-->
+                  <div
+                    class="d-flex justify-content-center small text-warning mb-2"
+                  >
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                  </div>
+                  <!-- Product price-->
+                  S/10.00
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Agregar al carrito</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="clickImagenes">
       <svg
