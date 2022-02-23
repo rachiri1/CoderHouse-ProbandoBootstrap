@@ -25,7 +25,6 @@ div.clickImagenes {
 }
 
 .cajaProductos {
-  background-image: linear-gradient(to right, white, #8e9eab, #eef2f3, white);
   div.productos {
     display: flex;
     flex-direction: column;
@@ -44,9 +43,9 @@ div.clickImagenes {
 /*Contact Form*/
 
 .formDiv {
-  background-image: linear-gradient(#c0c0aa, #2c5364, #c0c0aa);
   text-align: center;
   padding: 1%;
+  background-color: rgba($color: #afa864, $alpha: 1);
 
   input,
   textarea {

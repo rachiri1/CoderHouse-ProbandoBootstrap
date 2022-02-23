@@ -63,7 +63,8 @@ svg.bi-whatsapp {
   fill: green; }
 
 /*Extend*/
-img.logoNav, .pastelarcoiris {
+img.logoNav, .pastelarcoiris,
+img.logoDolceakasa {
   border-radius: 50%; }
 
 .pastelarcoiris {
@@ -237,7 +238,7 @@ img.logoNav, .pastelarcoiris {
 
 /*Generales******************************************************/
 .NavDolce {
-  background-image: linear-gradient(#0f2027, #203a43, #2c5364); }
+  background-image: url(../assets/navbar.jpg); }
 
 h1 {
   text-align: center; }
@@ -252,24 +253,23 @@ div.clickImagenes {
   height: 750px;
   object-fit: cover; }
 
-.cajaProductos {
-  background-image: linear-gradient(to right, white, #8e9eab, #eef2f3, white); }
-  .cajaProductos div.productos {
-    display: flex;
-    flex-direction: column; }
-    .cajaProductos div.productos strong {
-      margin-top: 3%;
-      margin-right: 90%; }
-  .cajaProductos img.productos {
-    width: 60%;
-    height: auto;
-    border: 1px solid whitesmoke; }
+.cajaProductos div.productos {
+  display: flex;
+  flex-direction: column; }
+  .cajaProductos div.productos strong {
+    margin-top: 3%;
+    margin-right: 90%; }
+
+.cajaProductos img.productos {
+  width: 60%;
+  height: auto;
+  border: 1px solid whitesmoke; }
 
 /*Contact Form*/
 .formDiv {
-  background-image: linear-gradient(#c0c0aa, #2c5364, #c0c0aa);
   text-align: center;
-  padding: 1%; }
+  padding: 1%;
+  background-color: #afa864; }
   .formDiv input,
   .formDiv textarea {
     border: 2px solid gray;

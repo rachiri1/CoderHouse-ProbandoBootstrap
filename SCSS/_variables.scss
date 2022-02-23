@@ -1,6 +1,6 @@
 /*Variables*/
 
-$gradNav: linear-gradient(#0f2027, #203a43, #2c5364);
+$gradNav: url(../assets/navbar.jpg);
 
 /*Maps*/
 
@@ -21,7 +21,8 @@ svg.bi-whatsapp {
 }
 
 /*Extend*/
-img.logoNav {
+img.logoNav,
+img.logoDolceakasa {
   border-radius: 50%;
 }
 
