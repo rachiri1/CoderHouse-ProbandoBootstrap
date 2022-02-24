@@ -33,12 +33,11 @@
     font-size: xx-small;
   }
 
-  div.nosotros,
-  div.nosotros2 {
-    margin-bottom: 4%;
-  }
-
   /**Productos**/
+
+  .textoClick2 {
+    font-size: x-small;
+  }
 
   /**Delivery**/
 
@@ -48,6 +47,7 @@
 
   div.delivery {
     padding: 0%;
+    margin: 1%;
   }
   /**Contacto**/
   .conoHelado {
@@ -95,11 +95,6 @@
     font-size: xx-small;
   }
 
-  div.nosotros,
-  div.nosotros2 {
-    margin-bottom: 4%;
-    border-radius: 0;
-  }
   /**Productos**/
 
   div.productos {
@@ -115,7 +110,12 @@
   h5.textoClick2 {
     font-size: larger;
   }
+
   /**Delivery**/
+
+  div.delivery {
+    margin: 1%;
+  }
 
   /**Contacto**/
   .conoHelado {

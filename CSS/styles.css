@@ -52,15 +52,15 @@ div.nosotros2 {
     flex-wrap: wrap; }
   p.nosotros {
     font-size: xx-small; }
-  div.nosotros, div.nosotros2,
-  div.nosotros2 {
-    margin-bottom: 4%; }
   /**Productos**/
+  .textoClick2 {
+    font-size: x-small; }
   /**Delivery**/
   p.lead {
     font-size: small; }
   div.delivery {
-    padding: 0%; }
+    padding: 0%;
+    margin: 1%; }
   /**Contacto**/
   .conoHelado {
     display: none; }
@@ -91,10 +91,6 @@ div.nosotros2 {
     flex-wrap: wrap; }
   p.nosotros {
     font-size: xx-small; }
-  div.nosotros, div.nosotros2,
-  div.nosotros2 {
-    margin-bottom: 4%;
-    border-radius: 0; }
   /**Productos**/
   div.productos {
     width: 80%;
@@ -107,6 +103,8 @@ div.nosotros2 {
   h5.textoClick2 {
     font-size: larger; }
   /**Delivery**/
+  div.delivery {
+    margin: 1%; }
   /**Contacto**/
   .conoHelado {
     display: none; }
@@ -294,7 +292,8 @@ div.clickImagenes {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: white; }
+  background-color: white;
+  border: 2px solid black; }
 
 .imgCarrusel {
   height: 750px;
