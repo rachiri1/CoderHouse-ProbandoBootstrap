@@ -14,6 +14,10 @@ h1 {
   background-color: white;
 }
 
+.nav-link {
+  border: 1px solid gray;
+}
+
 /**Index**/
 
 img.logoNav {
@@ -35,7 +39,7 @@ div.clickImagenes {
 /**Nosotros**/
 
 div.nosotros {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.541);
   height: 400px;
 }
 
@@ -44,17 +48,38 @@ p.nosotros {
   font-size: large;
   color: white;
 }
+
+.DivPastel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /**Productos**/
 
-div.productos {
+div.cartas {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+div.novedades {
   background-color: black;
-  padding-top: 48px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+img.card-img-top {
+  height: 223px;
+  object-fit: cover;
 }
 
 /**Delivery**/
 div.delivery,
 iframe {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.541);
   background-size: contain;
   width: 100%;
 }
@@ -110,8 +135,7 @@ div {
   ul {
     li {
       a.nav-link:hover {
-        position: relative;
-        bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.363);
       }
     }
   }
