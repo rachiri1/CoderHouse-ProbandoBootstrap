@@ -58,6 +58,13 @@ div.nosotros2 {
   /**Productos**/
   .textoClick2 {
     font-size: small; }
+  div.productos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  div.productoscards {
+    width: 100%; }
   /**Delivery**/
   p.lead {
     font-size: small; }
@@ -89,8 +96,6 @@ div.nosotros2 {
   video {
     width: 80%;
     margin: 20px 0; }
-  p.nosotros {
-    font-size: xx-small; }
   /**Productos**/
   div.productos {
     width: 80%;
@@ -303,8 +308,7 @@ div.clickImagenes {
 
 /**Nosotros**/
 div.nosotros, div.nosotros2 {
-  background-color: rgba(0, 0, 0, 0.541);
-  height: 400px; }
+  background-color: rgba(0, 0, 0, 0.541); }
 
 p.nosotros {
   text-align: center;
@@ -317,18 +321,6 @@ p.nosotros {
   align-items: center; }
 
 /**Productos**/
-div.cartas {
-  display: inline-block;
-  justify-content: center;
-  text-align: center; }
-
-div.novedades {
-  background-color: black;
-  padding: 5px 0;
-  margin-bottom: 10px;
-  justify-content: center;
-  text-align: center; }
-
 img.card-img-top {
   height: 223px;
   object-fit: cover; }
